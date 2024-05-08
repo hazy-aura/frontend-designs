@@ -1,0 +1,824 @@
+:root{
+    /* --lightblue: #ec1269; */
+    --lightblue: #f2756a ;     /*blue1:#24c2c2    green:#bce475   pink:#ed5679  orange:#fc9d4a yellow:#fc9d4a/*
+    /* --darkblue: #464144; */
+    --darkblue:  #000000  ;
+    --grey: #696969;
+    /* --redishOrange:#891F11; */
+    --redishOrange:  #59815b;
+
+    --darkgrey:#474747;
+    --lightgrey: #dbdbdb;
+    --greishwhite: #f6f7f6;
+    --white:#fff;
+    --font-family: 'Barlow', sans-serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.orange-text{
+    color: var(--redishOrange);
+}
+
+.logo{
+    position: relative;
+    color: white;
+    font-weight: 700;
+    font-size: 2em;
+    letter-spacing: 2px;
+
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  .sticky{
+    background-color: white;
+  }
+
+.fw
+{
+font-weight: 1000;
+}
+
+
+body{
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75em;
+    color: var(--grey);
+    /* #2095AE */
+    /* #0f2454 */
+}
+
+.Mainslider{
+    background-image: linear-gradient(rgba(247, 242, 238, 0.9),rgba(247, 242, 238, 0.9)url(images/Carousel2.jpg));
+    /* background-color: linear-gradient(rgba(255, 239, 246, 0.7),rgba(255, 239, 246, 0.7));; */
+    background-size: cover;
+    width: 100%;
+    /* background: rgb(247, 242, 238) */
+}
+
+/* .slider-text{
+    padding-top: 10%;
+} */
+/* .carousel-caption{
+    margin-bottom: 20%;
+    padding: 50px 100px;
+} */
+/* 
+.carousel-caption{
+    background: rgba(0, 0, 0, 0.5);
+    margin-bottom: 15%;
+} */
+/* 
+.background-gradient-light{
+    background: rgba(240, 223, 209, 0.5);
+    
+} */
+.mainSubtitle{
+    color: var(--lightgrey);
+    font-size: 15px;
+    /* font-family: 'Barlow', sans-serif; */
+    font-family: var(--font-family);
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    letter-spacing: 5px;
+}
+
+.mainHeading{
+    position: relative;
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 62px;
+    text-transform: uppercase;
+    -webkit-animation-delay: .4s;
+    animation-delay: .4s;
+    color: #252525;
+    font-weight: 600;
+    letter-spacing: 2px;
+    
+}
+.mainHeading span{
+    color: transparent;
+    -webkit-text-stroke: 1px #000000;
+}
+
+.section_subtitle{
+    color: var(--redishOrange);
+    font-size: 13px;
+    /* font-family: 'Barlow', sans-serif; */
+   
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-family: Montserrat,sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+
+}
+
+.section-title {
+    font-size: 45px;
+    line-height: 1.2em;
+   
+    text-transform: uppercase;
+    font-family: Montserrat,sans-serif;
+    color: var(--darkblue);
+    position: relative;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.paragraph {
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75em;
+    color: var(--grey);
+    margin-bottom: 20px;
+}
+
+.font-14px{
+    font-size: 14px;
+    line-height: 1.57em;
+    text-transform: uppercase;
+
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+
+.font-8px{
+    font-family: Montserrat,sans-serif;
+    font-weight: 500;
+    letter-spacing: .33em;
+    text-transform: uppercase;
+    color: #959595;
+    font-size: 8px;
+    margin: 0;
+}
+
+
+.section-title3-white{
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: var(--white);
+    position: relative;
+    margin-bottom: 20px;
+    line-height: 1.2em;
+}
+.phone-call{
+    font-size: 19px;
+    color: var(--lightblue);
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+}
+
+/* .about img {
+    position: relative;
+    z-index: 2;
+    background: transparent;
+} */
+
+.colourChange{
+    color: var(--lightblue);
+}
+
+.section-title2 {
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: var(--darkblue);
+    position: relative;
+    margin-bottom: 20px;
+    line-height: 1.2em;
+    text-transform: uppercase;
+}
+
+.section-title2-white {
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: var(--white);
+    position: relative;
+    /* text-transform: uppercase; */
+}
+
+.section-title3 {
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: var(--darkblue);
+    position: relative;
+    margin-bottom: 20px;
+    line-height: 1.2em;
+    /* text-transform: uppercase; */
+}
+
+.date-heading{
+    font-size: 13px;
+    font-weight: 600;
+    color: #a3a3a3;
+}
+
+.paragraph2{
+    font-size: 15px;
+    color: var(--darkgrey);
+    font-weight: 500;
+}
+
+.paragraph2-white{
+    font-size: 15px;
+    color: var(--white);
+    font-weight: 500;
+}
+
+.link-heading{
+    font-size: 18px;
+    font-weight: 520;
+    color: var(--lightblue);
+}
+.link-heading:hover{
+    font-size: 18px;
+    font-weight: 520;
+    color: var(--darkgrey);
+}
+
+.link-btn {
+    display: inline-block;
+    position: relative;
+    font-family: 'Barlow', sans-serif;
+    color: var(--grey);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-BG-coloured{
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 0px;
+    border-color: var(--redishOrange);
+    background: var(--redishOrange);
+    color: #fff;
+    margin: 0;
+}
+
+.btn-BG-coloured-outline{
+    font-size: 16px;
+    font-weight: 400;
+    /* border-radius: 0px;
+    border-color: var(--redishOrange); */
+    border: 1px solid var(--redishOrange);
+    background: transparent;
+    color: var(--redishOrange);
+    margin: 0;
+}
+.btn-BG-coloured-outline:hover{
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 0px;
+    border-color: var(--redishOrange);
+    border: 1px solid var(--redishOrange);
+    background: var(--redishOrange);
+    color: white;
+    margin: 0;
+}
+
+.slick-dots li.slick-active button:before {
+    color:black !important;
+}
+
+.list-style-none{
+    list-style: none;
+}
+
+.icon-colour{
+    color: var(--redishOrange);
+}
+
+.icon-colour2{
+    color: var(--lightblue);
+}
+/* .icon-colour:hover{
+    color: var(--white);
+} */
+.icon-white{
+    color: var(--white);
+}
+
+.slick-dots {
+	display: flex;
+	justify-content: center;
+	
+	margin: 0;
+	padding: 2rem 0;
+	
+	list-style-type: none;
+}
+.slick-dots li {
+	margin: 0 0.25rem;
+}
+	
+.slick-dots button {
+	display: block;
+	width: 13px;
+	height: 13px;
+	padding: 0;
+			
+			border: none;
+	border-radius: 100%;
+	background-color: var(--lightgrey);
+			
+	text-indent: -9999px;
+}
+	
+.slick-dots li.slick-active button {
+	background-color: var(--lightblue);
+}
+
+.country1 {
+    background: url(images/map1.png) center center no-repeat;
+    background-size: contain;
+}
+
+.packages{
+    background-color: var(--greishwhite);
+    border-radius: 5%;
+}
+	
+.bottom-border{
+    border-bottom: 1px solid var(--lightblue);
+}
+
+.blog-img-top{
+    height: 14rem;
+    object-fit: cover;
+}
+
+.style01 li a.nav-link{
+    color:white !important;
+    font-weight: 600;
+    font-size:19px;
+}
+/* .dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+} */
+/* header{
+background-color:transparent;
+z-index: 1; */
+/* position: fixed; */
+}
+/* Links inside the dropdown */
+/* .dropdown-content a {
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+} */
+
+/* .navbar-fixed-top.scrolled {
+    background-color: rgb(35, 34, 34) !important;
+    transition: background-color 200ms linear;
+  } */
+
+/* Add a grey background color to dropdown links on hover */
+/* .dropdown-menu a:hover {
+background-color: #ddd;
+} */
+
+/* Show the dropdown menu on hover */
+/* .dropdown:hover .dropdown-menu {
+display: block;
+} */
+/* 
+.header{
+position:fixed;
+top:0;
+background:transparent;
+width:100%;
+height:100px;
+
+} */
+
+
+/* .blue{
+position:fixed;
+top:0;
+background:black;
+width:100%;
+transition-duration: 2s;
+transition-property: all;
+transition-timing-function: ease;
+height:50px;
+} */
+
+/* .navbar{
+    position:fixed;
+    top:0;
+    background:transparent;
+    width:100%;
+    height:50px;
+    
+  }
+  .navbar ul{
+    list-style-type:none;
+    padding:0;
+  }
+  
+  .navbar ul li{
+    display:inline-block;
+    width:100px;
+    color:red;
+  }
+   */
+  .blue{
+    position:fixed;
+    top:0;
+    background:var(--darkblue);
+    width:100%;
+    height:50px;
+  }
+
+  .feedback{
+    border: 1px solid var(--greishwhite);
+    border-radius: 90%;
+    background-color: var(--greishwhite);
+  }
+
+  .feimgedback-{
+    /* height: 8rem; */
+    border-radius: 50%;
+  }
+
+  .checked {
+    color: orange;
+  }
+
+  .feedback .icons{
+    font-size: 15px;
+  }
+
+  /*---------footer----------*/
+
+  .FooterBG{
+    background-image: url(https://wanderland.qodeinteractive.com/wp-content/uploads/2019/11/landing-img-49.jpg);
+    /* background-image: linear-gradient(rgba(151, 171, 148, 0.2),rgba(151, 171, 148, 0.9)),url(images/beach.jpg); */
+    background-size: cover;
+}
+
+
+.FooterHeading{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.FooterContent{
+    color: var(--white);
+}
+
+/*-------newfooter--------*/
+.round-icon{
+   
+    border: 1px solid var(--redishOrange);
+    border-radius:50%;
+    padding: 10px;
+    background-color: var(--redishOrange);
+    color: #fff;
+}
+
+.email input {
+    height: 60px;
+    width: 100%;
+    border: none;
+    background: #fff;
+    font-size: 16px;
+    color: #676977;
+    outline: none;
+    padding: 0 90px 0 20px;
+}
+
+.search input {
+    height: 50px;
+    width: 35%;
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #676977;
+    outline: none;
+    padding: 0 90px 0 20px;
+}
+
+
+.text-block input {
+    height: 50px;
+    width: 100%;
+    border: none;
+    background: #fff;
+    font-size: 16px;
+    color: #676977;
+    outline: none;
+    padding: 0 70px 0 20px;
+}
+
+.text-block-grey input {
+    height: 50px;
+    width: 100%;
+    border: none;
+    background: rgb(249, 249, 249);
+    font-size: 16px;
+    color: #46474a;
+    outline: none;
+    padding: 0 70px 0 20px;
+}
+
+.text-block-grey textarea {
+    height: 200px;
+    width: 100%;
+    border: none;
+    background: rgb(249, 249, 249);
+    font-size: 16px;
+    color: #46474a;
+    outline: none;
+    padding: 0 70px 0 20px;
+}
+
+.text-block select {
+    height: 50px;
+    width: 100%;
+    border: none;
+    background: #fff;
+    font-size: 16px;
+    color: #676977;
+    outline: none;
+    padding: 0 70px 0 20px;
+}
+
+.email textarea {
+    height: 120px;
+    width: 100%;
+    border: none;
+    background: #fff;
+    font-size: 16px;
+    color: #676977;
+    outline: none;
+    padding: 0px 90px 0px 20px;
+}
+.email button {
+    height: 50px;
+    border: none;
+    background: #2095AE;
+    font-size: 16px;
+    color: #fff;
+    outline: none;
+    padding: 0 25px;
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.footerData{
+    font-size: 14px;
+    font-weight: 550;
+    color: var(--darkblue);
+}
+.white-text{
+    color: var(--white);
+}
+
+.square-icon{
+    border: 1px solid var(--redishOrange);
+    /* border: boc;
+    border-radius: 80%; */
+    background-color: var(--redishOrange);
+    width: 50px;
+    height: 50px;
+     padding: 10px; 
+}
+
+.left-border{
+    border-left: 1px solid var(--lightgrey);
+}
+
+/*----------contact------------*/
+
+
+
+
+/*-------------tour--------------*/
+/* .card-img-overlay{
+    background-color: linear-gradient(rgba(255, 239, 246, 0.1),rgba(255, 239, 246, 0.1));
+}
+.card-img-overlay {
+    position: absolute;
+    top: 20;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1.25rem;
+  } */
+/* .card-img{
+    background-image: linear-gradient(rgba(255, 239, 246, 0.1),rgba(255, 239, 246, 0.1)url(images/cycling.jpg));
+    
+    background-size: cover;
+    width: 100%;
+} */
+
+.background-gradient{
+    background: rgba(255, 255, 255, 0.8);
+    
+}
+.background-gradient-white{
+    background: rgb(255, 255, 255,0.7);
+    
+}
+/* .background-gradient-img{
+    background: rgba(0, 0, 0, 0.2);
+    
+} */
+.card-img{
+    height: 30rem;
+    /* width: 100%; */
+}
+
+.round-border-img{
+    border-radius: 5px;
+}
+.centered {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.link-heading2{
+    font-size: 18px;
+    font-weight: 520;
+    color: var(--redishOrange);
+}
+.link-heading2:hover{
+    font-size: 18px;
+    font-weight: 520;
+    color: var(--darkblue);
+}
+
+.font-33px{
+    font-size: 33px;
+    line-height: 1.21em;
+    font-weight: 400;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-family: Montserrat,sans-serif;
+}
+
+.font-18px{
+    font-size: 18px;
+    line-height: 30px;
+    color: #838383;
+    font-family: Montserrat,sans-serif;
+}
+
+.bg-img-tour{
+    background-image: url(https://backpacktraveler.qodeinteractive.com/wp-content/uploads/2018/09/landing-headers-background.jpg);
+}
+
+/*-------tour details----------*/
+.bottom-border2{
+   border-bottom: 1px solid var(--lightgrey);
+}
+
+
+
+/*----------gallery--------------*/
+.photo-size{
+     height: 180px;     
+     object-fit: cover;
+     border-radius: 5px;
+}
+
+.location-text{
+    font-size: 14px;
+    color: var(--darkgrey);
+    line-height: 0px;
+    font-weight: 520;
+}
+
+.section-title4{
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: var(--darkblue);
+    position: relative;
+    /* margin-bottom: 20px; */
+    /* line-height: 1.2em; */
+    /* text-transform: uppercase; */
+}
+
+.section-title5{
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: var(--darkblue);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: var(--darkblue);
+    position: relative;
+}
+
+.grey-background{
+    /* background-color: rgb(250, 236, 231);
+    border: 1px solid rgb(250, 236, 231); */
+    background-image: linear-gradient(rgba(227, 243, 250, 0.8),rgba(248, 216, 198, 0.9)),url(images/beach.jpg);
+        
+    
+    border-radius: 5px;
+}
+
+.img-fit{
+    object-fit: cover;
+    height: 205px;
+    
+}
+
+
+/*---------signup-----------*/
+
+.signup-bg{
+        background-image: linear-gradient(rgba(2,2,2, 0.5),rgba(2,2, 2, 0.6)),url(images/Carousel1.jpg);
+        background-size: cover;
+}
+
+
+/*-------404-------*/
+.background-img-404error{
+    background-image:url(images/404-error-BG.jpg);
+        background-size: cover;
+}
+
+.paragraph3-white{
+    font-size: 18px;
+    color: var(--white);
+    font-weight: 600;
+}
+
+
+/*----------userProfile--------*/
+
+.border-grey{
+    border: 2px solid rgb(205, 205, 205);
+    border-radius: 5px;
+    background-color: var(--white);
+  }
+.round-img{
+    border-radius: 50%;
+}
+
+
+ .nav-link{
+    background-color: rgb(250, 250, 250);
+    border: none;
+    border-bottom: 1px solid rgb(205, 205, 205);
+    box-shadow: none;
+    font-size: 14px;
+} 
+
+.light-grey-bg{
+    background-color: rgb(250, 250, 250);
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: var(--lightblue) !important;
+    font-weight: 580;
+  }
+
+
+  .border-grey-hover:hover{
+border: 2px solid #f3f3f3;
+  }
+
+  .bg-main{
+    padding: 20% 0%;
+    background-image: url(https://backpacktraveler.qodeinteractive.com/wp-content/uploads/2018/08/h4-slider-img-1.png);
+    /* background-image: linear-gradient(rgba(151, 171, 148, 0.2),rgba(151, 171, 148, 0.9)),url(images/beach.jpg); */
+    background-size: cover;
+}

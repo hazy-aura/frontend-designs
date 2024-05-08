@@ -1,0 +1,200 @@
+@import url(https://fonts.googleapis.com/css?family=Tangerine);
+:root{
+    /* --lightblue: #ec1269; */
+    --peach: #f2756a ;    
+    --white: #fff;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    overflow-y: none !important;
+}
+
+.text-peach{
+    color: var(--peach) !important;
+}
+.text-white{
+    color: var(--white) !important;
+}
+
+.text-mid-grey{
+    color: #565050;
+}
+
+.font-blog-name{
+    font-family: 'Tangerine', serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    font-size: 44px;
+    line-height: 1em;
+}
+
+.font-blog-quote{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    margin: 10px 0;
+    padding: 0;
+    font-size: 44px;
+    line-height: 33px;
+    text-align: center;
+    quotes: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: EpicRide,serif;
+}
+
+.font-8px{
+    font-family: Montserrat,sans-serif;
+    font-weight: 400;
+    color: #959595;
+    letter-spacing: .33em;
+    font-size: 8px;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 4px;
+}
+
+
+.font-10px{
+    font-size: 10px;
+    letter-spacing: .3em;
+    font-weight: 400;
+    font-family: Montserrat,sans-serif;
+    text-transform: uppercase;
+}
+
+
+.font-10px-letter-spacing{
+    font-size: 10px;
+    transition: .2s ease;
+    color: #959595;
+    letter-spacing: .33em;
+    font-weight: 400;
+    font-family: Montserrat,sans-serif;
+    text-transform: uppercase;
+}
+
+.font-12px{
+    font-size: 12px;
+    line-height: 1.67em;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-family: Montserrat,sans-serif;
+    color: black;
+    transition: color .2s ease-in-out;
+    font-weight: 500;
+}
+
+.font-14px{
+    letter-spacing: .2em;
+    font-family: Montserrat,sans-serif;
+    color: #000;
+    font-size: 14px;
+    line-height: 1.57em;
+}
+
+.font-15px-No-letter-spacing{
+    font-size: 15px;
+    /* font-style: italic; */
+    color: #f2756a;
+    line-height: 2.1em;
+}
+
+.font-16px{
+    font-family: Lora,serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.69em;
+    color: #565050;
+}
+
+.font-17px{
+    font-size: 17px;
+letter-spacing: 0.2em;
+}
+
+.font-19px{
+    line-height: 1.33em;
+    font-weight: 400;
+    letter-spacing: .2em;
+    font-size: 19px;
+}
+
+.font-22px{
+    font-size: 23px;
+    font-weight: 600;
+    font-family: Lora,serif;
+}
+
+.font-24px{
+    font-size: 24px;
+    line-height: 1.33em;
+    font-weight: 400;
+    word-wrap: break-word;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-family: Montserrat,sans-serif;
+    color: #000;
+}
+
+.font-33px{
+    font-size: 33px;
+    line-height: 1.21em;
+    font-weight: 400;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-family: Montserrat,sans-serif;
+    color: #000;
+}
+
+.border-input{
+    border:1px solid rgb(233, 232, 232);
+border-radius: 0%;
+}
+
+/*---------left-right-line-------*/
+.left-right-line {
+    text-align: center;
+    overflow: hidden;
+    padding: 2px;
+    font-size: 30px;
+  }
+  
+  .left-right-line span {
+    display: inline-block;
+    position: relative;
+    padding: 8px 30px;
+  }
+  
+  .left-right-line span:before,
+  .left-right-line span:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 999px;
+    border-bottom: 1px solid #444;
+    height: 3px;
+    top: 50%;
+    margin-top: -3px;
+  }
+  
+  .left-right-line span:before {
+    right: 100%;
+  }
+  .left-right-line span:after {
+    left: 100%;
+  }
+
+  /*-----about-us----*/
+  .bg-img-why-choose-us{
+    /* background-image: linear-gradient(rgba(247, 242, 238, 0.9),rgba(247, 242, 238, 0.9)url(https://www.wordpress.codeinsolution.com/ravelio/wp-content/uploads/sites/6/2022/09/happy-mother-with-little-boy-travelling-in-backpack-e1663684457128.jpg)); */
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.wordpress.codeinsolution.com/ravelio/wp-content/uploads/sites/6/2022/09/happy-mother-with-little-boy-travelling-in-backpack-e1663684457128.jpg);
+
+}

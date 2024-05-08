@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+</head>
+<body>
+
+
+<section style="padding-top: 8rem;">
+   <div class="container">
+    <div class="row">
+        <div class="col-3">
+          <div class="nav flex-column nav-pills light-grey-bg"  id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <button class="nav-link active text-left pl-4" id="v-pills-profile-tab" data-toggle="pill" data-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="true"><i class="fa fa-user" aria-hidden="true"></i> Profile</button>
+            <button class="nav-link text-left pl-4" id="v-pills-verifications-tab" data-toggle="pill" data-target="#v-pills-verifications" type="button" role="tab" aria-controls="v-pills-verifications" aria-selected="false"><i class="fa fa-check-square-o" aria-hidden="true"></i> Verifications</button>
+            <button class="nav-link text-left pl-4" id="v-pills-settings-tab" data-toggle="pill" data-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false"><i class="fa fa-cog" aria-hidden="true"></i> Settings</button>
+            <button class="nav-link text-left pl-4" id="v-pills-RecentlyViewed-tab" data-toggle="pill" data-target="#v-pills-RecentlyViewed" type="button" role="tab" aria-controls="v-pills-RecentlyViewed" aria-selected="false"><i class="fa fa-recycle" aria-hidden="true"></i> Recently viewed</button>
+            <button class="nav-link text-left pl-4" id="v-pills-PaymentMethods-tab" data-toggle="pill" data-target="#v-pills-PaymentMethods" type="button" role="tab" aria-controls="v-pills-PaymentMethods" aria-selected="false"><i class="fa fa-credit-card-alt" aria-hidden="true"></i> Payment Methods</button>
+            <button class="nav-link text-left pl-4" id="v-pills-Reviews-tab" data-toggle="pill" data-target="#v-pills-Reviews" type="button" role="tab" aria-controls="v-pills-Reviews" aria-selected="false"><i class="fa fa-star-o" aria-hidden="true"></i> Reviews</button>
+            <div class="pt-3 pb-3 text-center">
+               <button type="button " class="btn-BG-coloured px-4  btn-lg btn pt-1" style="font-size: 14px;"><i class="fa fa-sign-out" aria-hidden="true"></i> Log Out</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-9 w-50" >
+          <div class="tab-content" id="v-pills-tabContent">
+
+
+           <!-------profile-------->
+            <div class="tab-pane fade show active pl-5" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                <div class="section-title3">Profile</div>
+                <div class="row">
+                    <div class="col-6">
+                           <img src="" alt="">
+                    </div>
+                    <div class="col-6">
+                        
+                    </div>
+                </div>
+                 <div class="row">
+                  <div class="col-md-6">
+                    <div class="py-1 p-md-2 ">
+                      <div class="text-block-grey">
+                          <input type="text" name="cpfname" class=" form-control-border p-3" placeholder="First name*" required>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="py-1 p-md-2 ">
+                      <div class="text-block-grey w-100">
+                          <input type="text" name="cpfname" class=" form-control-border p-3" placeholder="First name*" required>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="py-1 p-md-2 ">
+                      <div class="text-block-grey w-100">
+                        <label for="exampleFormControlTextarea1"></label>
+                        <textarea class=" p-3" id="exampleFormControlTextarea1" rows="6"  placeholder="Tell us about yourself" style="border: 1px solid #f5f5f5;"></textarea>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="py-1 p-md-2 ">
+                      <div class="text-block-grey w-100">
+                          <input type="text" name="cpfname" class=" form-control-border p-3" placeholder="Email Address" required>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="py-1 p-md-2 ">
+                      <div class="text-block-grey w-100">
+                          <input type="text" name="cpfname" class=" form-control-border p-3" placeholder="Phone Number" required>
+                      </div>
+                  </div>
+                  </div>
+                 </div>
+                 <button type="button " class="btn-BG-coloured px-4 btn-lg btn pt-2">Send <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+            </div>
+
+             <!------verification-------->
+            <div class="tab-pane fadepl-5 " id="v-pills-verifications" role="tabpanel" aria-labelledby="v-pills-verifications-tab">verifications.</div>
+
+             <!-------settings-------->
+            <div class="tab-pane fade pl-5" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                <div class="section-title3">Settings</div>
+                <div class="paragraph pt-3" style="line-height: 0px;">Change your password</div>
+                <div class="py-1 text-block-grey password-field" id="show_hide_password">
+                    <input  type="password" name="password" class="" placeholder="Old Password" id="pass_log_id">
+                </div>
+                <div class="py-1  text-block-grey password-field" id="show_hide_password">
+                    <input  type="password" name="password" class="" placeholder="New Password" id="pass_log_id">
+                </div>
+                <div class="py-1  text-block-grey password-field" id="show_hide_password">
+                  <input  type="password" name="password" class="" placeholder="New Password" id="pass_log_id">
+              </div>
+            </div>
+
+            <!-------recently Viewed-------->
+            <div class="tab-pane fade" id="v-pills-RecentlyViewed" role="tabpanel" aria-labelledby="v-pills-RecentlyViewed-tab">
+                <div class="section-title3">Reecently viewed</div>
+                <div class="row">
+                  <div class="col-md-6">
+                      <div>
+                         <img  class="w-100" src="images/beach.jpg" alt="">
+                         <ul>
+                           <li class="list-style-none pt-2" style="line-height: 0px;"><i class="fa fa-map-marker icon-colour" aria-hidden="true"></i> <a href="#" class="link-btn">Roma</a></li>
+                        </ul>
+                         <div class="section-title4">Hurawalhi Island</div>
+                         <div class="paragraph">7Days Tour on 2 person</div>
+                         <h2 class="orange-text">620<span style="font-size: 14px;">$</span></h2>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div>
+                      <img  class="w-100" src="images/beach.jpg" alt="">
+                      <ul>
+                        <li class="list-style-none pt-2" style="line-height: 0px;"><i class="fa fa-map-marker icon-colour" aria-hidden="true"></i> <a href="#" class="link-btn">Roma</a></li>
+                     </ul>
+                      <div class="section-title4">Hurawalhi Island</div>
+                      <div class="paragraph">7Days Tour on 2 person</div>
+                      <h2 class="orange-text">620<span style="font-size: 14px;">$</span></h2>
+                   </div>
+                  </div>
+                </div>
+            </div>
+
+             <!-------paymet method-------->
+            <div class="tab-pane fade" id="v-pills-PaymentMethods" role="tabpanel" aria-labelledby="v-pills-PaymentMethods-tab">payment</div>
+
+             <!-------reviews-------->
+            <div class="tab-pane fade pl-5" id="v-pills-Reviews" role="tabpanel" aria-labelledby="v-pills-Reviews-tab">
+              <div class="section-title3">Reviews</div>
+              <div class="paragraph">
+                <span class="orange-text">Reviews About You</span> |  Reviews By You
+              </div>
+              <div class=" p-4 border-grey">
+                <div class="row">
+                  <div class="col-2 ">
+                    <img class="round-img w-100  mx-auto" src="images/person1.jpg" alt="">
+                  </div>
+                  <div class="col-10">
+                    <div class="section-title4 " >Shweta Chauhan</div>
+                    <div class="icons pt-2">
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star"></span>
+                      <span class="fa fa-star"></span>
+                   </div>
+            
+                  <!-- <div class="paragraph" style="line-height: 0px;">Photographer</div> -->
+                  <div class="paragraph2  pb-3" >Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate, sint. consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus...</div>
+                  </div>
+                </div>
+                 <!-- <div class="icons pt-2">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                 </div>
+                <div class="section-title3 ">Shweta Chauhan</div>
+                <p class="paragraph">Photographer</p>
+                <p class="paragraph2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus...</p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+   </div>
+</section>
+
+
+
+    
+    <!------------------------script links-------------------------->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
